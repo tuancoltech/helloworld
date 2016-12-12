@@ -42,7 +42,7 @@ module.exports.connections = {
   ***************************************************************************/
    node_helloworld_mysql: {
      adapter: 'sails-mysql',
-     host: 'localhost',
+     host: 'https://serene-anchorage-51955.herokuapp.com/',
      user: 'node_helloworld', //optional
      password: '123456', //optional
      database: 'node_helloworld' //optional

@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
+  /*localDiskDb: {
     adapter: 'sails-disk'
-  },
+  },*/
 
   /***************************************************************************
   *                                                                          *
@@ -42,7 +42,7 @@ module.exports.connections = {
   ***************************************************************************/
    node_helloworld_mysql: {
      adapter: 'sails-mysql',
-     host: 'https://serene-anchorage-51955.herokuapp.com/',
+     host: 'localhost',
      user: 'node_helloworld', //optional
      password: '123456', //optional
      database: 'node_helloworld' //optional

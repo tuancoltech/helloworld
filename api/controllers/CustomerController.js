@@ -12,14 +12,19 @@ module.exports = {
     },
 
     create: function(req, res, next) {
-        Customer.create(req.params.all(), function customerCreated(err, customer) {
-            if (err) return next(err);
+        if (req.method == 'POST') {
+            Customer.create(req.params.all(), function customerCreated(err, customer) {
+                        if (err) return next(err);
 
-//            res.json(customer);
+                        res.json(customer);
 
-            res.redirect('/customer/show/' + customer.id);
+            //            res.redirect('/customer/show/' + customer.id);
 
-        });
+                    });
+        } else {
+            res.json({"result": false})
+        }
+
     },
 
     show: function(req, res, next) {

@@ -12,5 +12,5 @@ module.exports = {
   }
 };
 
-sails.config.models.migrate='drop';
+/*sails.config.models.migrate='alter';*/
 

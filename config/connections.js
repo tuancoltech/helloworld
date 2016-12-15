@@ -42,7 +42,7 @@ module.exports.connections = {
   ***************************************************************************/
    node_helloworld_mysql: {
      adapter: 'sails-mysql',
-     host: '54.244.31.91',
+     host: 'localhost',
      user: 'node_helloworld', //optional
      password: '123456', //optional
      database: 'node_helloworld' //optional

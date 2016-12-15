@@ -13,9 +13,9 @@
  * .
  * Note: If you're using version control, you should put your passwords/api keys
  * in `config/local.js`, environment variables, or use another strategy.
- * (this is to prevent you inadvertently sensitive credentials up to your repository.)  
+ * (this is to prevent you inadvertently sensitive credentials up to your repository.)
  *
- * For more information on configuration, check out:     
+ * For more information on configuration, check out:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.connections.html
  */
 
@@ -42,7 +42,7 @@ module.exports.connections = {
   ***************************************************************************/
    node_helloworld_mysql: {
      adapter: 'sails-mysql',
-     host: 'localhost',
+     host: '54.244.31.91',
      user: 'node_helloworld', //optional
      password: '123456', //optional
      database: 'node_helloworld' //optional
